@@ -191,7 +191,7 @@ Open up the `index.html` file. Scroll down to around line 114 and 137. You
 should see something that looks like this:
 
 ```html
-<<<<<<< HEAD
+ HEAD
   <!-- Begin Profile -->
   <li class="home-blog-post">
     <div class="blog-thumb">
@@ -212,8 +212,7 @@ should see something that looks like this:
     <div class="clear"></div>
   </li>
   <!-- End Profile -->
-=======
->>>>>>> marty-mcfly
+ marty-mcfly
 ... (MORE CODE) ...
 ```
 
@@ -223,9 +222,9 @@ Remember, Git does its best to merge the code, but sometimes it just doesn't
 work. You need to complete the merge yourself by manually adjusting the code.
 Git gives you a few hints to help us out:
 
-- `<<<<<<< HEAD` - the beginning of the original branch (`master`)
-- `=======` - the end of the original branch/the beginning of the branch being merged in (`marty-mcfly`)
-- `>>>>>>> marty-mcfly` - the end of the new branch ( `marty-mcfly`)
+- ` HEAD` - the beginning of the original branch (`master`)
+-  - the end of the original branch/the beginning of the branch being merged in (`marty-mcfly`)
+-  marty-mcfly` - the end of the new branch ( `marty-mcfly`)
 
 Take your time and shift the code around, separating the `MARTY MCFLY` and `DOC
 BROWN` code blocks. Use the markers from git as a guide.
